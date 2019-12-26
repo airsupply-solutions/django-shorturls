@@ -5,19 +5,19 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "django-shorturls",
+    name = "airsupply-django-shorturls",
     version = "2.0.0",
-    url = 'https://github.com/bfirsh/django-shorturls',
+    url = 'https://github.com/airsupply-solutions/django-shorturls',
     license = 'BSD',
-    description = "A URL shortening app for Django.",
+    description = "A URL shortening app for Django (branched version maintained by Airsupply).",
     long_description = read('README.rst'),
 
     author = 'Simon Willison, Jacob Kaplan-Moss',
-    author_email = 'jacob@jacobian.org',
+    author_email = 'tim.martin@airsupply.org.uk',
 
     packages = find_packages('src'),
     package_dir = {'': 'src'},
-    
+
     install_requires = ['setuptools', 'six'],
 
     classifiers = [
