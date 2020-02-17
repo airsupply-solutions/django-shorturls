@@ -6,13 +6,13 @@ def read(fname):
 
 setup(
     name = "airsupply-django-shorturls",
-    version = "2.0.0",
+    version = "2.0.1",
     url = 'https://github.com/airsupply-solutions/django-shorturls',
     license = 'BSD',
     description = "A URL shortening app for Django (branched version maintained by Airsupply).",
     long_description = read('README.rst'),
 
-    author = 'Simon Willison, Jacob Kaplan-Moss',
+    author = 'Simon Willison, Jacob Kaplan-Moss, Tim Martin',
     author_email = 'tim.martin@airsupply.org.uk',
 
     packages = find_packages('src'),
